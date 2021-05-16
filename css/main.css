@@ -10,7 +10,7 @@
     margin-top: -200px;
     background: #fff;
     background: linear-gradient(#fff 50%, #fff 100%);
-    position: relative;
+    width: 100%;
 }
 @media only screen and (min-width: 768px){
     .main_info {
