@@ -9,15 +9,17 @@
     padding: 15px 30px 25px;
     margin-top: -150px;
     width: 100%;
-    background-image: linear-gradient(to bottom,rgba(255,255,255,0.5) 0,#fff 50%,#fff 100%);
+    background-image: linear-gradient(to bottom,rgba(255,255,255,0.7) 0,#fff 50%,#fff 100%);
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
     .main_info {
-        background: #fff;
-        background: linear-gradient(#fff 50%, #fff 100%);
-        position: absolute;
+      background: linear-gradient(rgba(255,255,255,0.7), #fff 50%);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
     }
-}
+  }
 a{
     text-decoration: none;
     color: black;
